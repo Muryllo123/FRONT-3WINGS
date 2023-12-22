@@ -5,41 +5,41 @@
     gap: 45px;
     max-width: 100%;
     margin: 2rem 2rem;
+    padding: 3rem;
     
 }
  .grid{
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-    justify-content: center;
-    align-items: center;
-    margin:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     
  }
  h1{
-    
     font-weight: 800;
     margin:auto;
  }
 
 .remedio{
-    width: 1000px;
-    background: white;
-    height: 130px;
+    display: grid;
+    width: 330px;
+    background:  #ffff;
+    border: 3px solid #b3b1b1;
+    height: 350px;
     padding: 1rem;
-    border: 2px solid #f9f8f895;
+    box-shadow: 2px 2px 16px 0px rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     overflow: hidden;
 
 }
-.qnt{
-    margin-top: 15px;
+.content{
     display: flex;
-    position: relative;
-    left: 850px;
-    top: 30px;
-    gap:10px;
+    margin-top: auto;
 }
+.qnt{
+    display: flex; 
+    
+}
+
 .descrição{
     position: relative;
     top:10px;
@@ -48,7 +48,7 @@
 .LerMais{
     position:relative;
     top:10px;
-    background-color: #04b016;
+    background-color: #068a13;
     color: rgb(0, 0, 0);
     border: 1px solid #04b016;
     border-radius: 10px;
@@ -57,4 +57,77 @@
     max-width: 90px;
     text-align: center;
     cursor: pointer;
+    margin-bottom: 15px;
 }
+
+
+.EditDelete{
+    display: flex;
+    height: 0;
+    margin-left: 160px;
+    margin-top: 18px;
+    gap: 10px;
+}
+
+.Editar{
+    cursor: pointer;
+}
+.Deletar{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+ .grid {
+  justify-content: center;
+  grid-template-columns: 1fr;
+  gap: 10px;
+ }
+ .container{
+    
+    font-size: 5px;
+    align-items: center;
+ }
+ .remedio{
+    justify-content: center;
+    width: 200px;
+    height: 160px;
+    gap: 10px;
+ }
+ .remedio h1{
+    max-width: 200px;
+    font-size: 1rem;
+ }
+ .descrição{
+    position: relative;
+    left: 60px;
+    font-size: 10px;
+ }
+ .LerMais{
+    position: relative;
+    left: 50px;
+    top: 23px;
+    font-size: 10px;
+    font-weight: 800;
+    width: 65px;
+    height: 17px;
+    max-width: 200px;
+    max-height: 500px;
+    
+    
+ }
+ .EditDelete{
+    position: relative;
+    right: 50px;
+    top: 10px;
+    gap: 20px;
+ }
+ .Editar{
+    width: 18px;
+ }
+ .Deletar{
+    width: 15px;
+ }
+}
+
+
+

@@ -14,16 +14,9 @@ return (
         <li>
           <Link to={`/`}>Home</Link>
         </li>
-        <li>
-          <Link to={`/sobre`}>Sobre</Link>
-        </li>
-        <li>
-          <Link to={`/`}>Contato</Link>
-        </li>
         <li className="Criar">
           <Link to={`/novo`}>Novo Post</Link>
         </li>
-        <li className="Editar"><a>Editar Post</a></li>
       </ul>
     </nav>
   </header>

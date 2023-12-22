@@ -35,9 +35,9 @@ try{
 
 
   return (
-    <div className="novo-remedio">
-      <h2>Inserir um novo Remédio:</h2>
-      <form onSubmit={(e) => createRemedio(e)}>
+    <form onSubmit={(e) => createRemedio(e)}>
+      <div className="novo-remedio">
+        <h2>Inserir um novo Remédio:</h2>
         <div className="containerform">
           <label htmlFor="nome">Nome:</label>
           <input
@@ -68,8 +68,8 @@ try{
           />
         </div>
         <input type="submit" value="Salvar Remédio" className="btn"></input>
-      </form>
-    </div>
+      </div>
+    </form>
   );
 };
 

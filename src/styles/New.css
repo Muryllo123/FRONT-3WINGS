@@ -8,6 +8,10 @@ form{
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 2rem 1rem;
+
 }
 
 .containerform{
@@ -23,7 +27,7 @@ form{
 .containerform input,
 .containerform textarea{
    padding: .5rem;
-   border: none;
+   border: 2px solid black;
    border-radius: 5px;
 }
 
@@ -31,6 +35,14 @@ form{
     padding: 1rem;
     border-radius: 15px;
     border: none;
-    border: 1px solid white;
+    border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
+    text-align: center;
+    
+}
+.btn:hover{
+    transition: 0.5s;
+    background-image: linear-gradient( 109.6deg, rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% );
+    font-weight: bold;
+
 }

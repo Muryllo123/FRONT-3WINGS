@@ -14,8 +14,7 @@ nav{
    align-items: center;
    height: 45px;
    padding: 1rem 2rem;
-   background-image: linear-gradient( 109.6deg,  rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% );
-   
+   background-image: linear-gradient( 109.6deg, rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% );
    
 }
 
@@ -26,46 +25,40 @@ nav ul{
    padding: 0;
    text-align: center;
 }
-nav ul li{
+nav ul li {
    display: inline;
    gap: 1rem;
    font-size: 20px;
    text-decoration: none;
    font: 400;
 }
+nav ul li a{
+    transition: text-decoration 0.3s ease-in-out;
+}
 
+nav ul li a:hover{
+   text-decoration: underline;
+}
 ul{
    display: flex;
    align-items: center;
    justify-content: center;
 }
- .Editar {
-   cursor:pointer;
-   border: 2px solid #000000;
-   font-weight: bold;
-   border-radius: 1ch;
-   padding: 0.5rem;
-   transition: 0.5s;
- }
+
  .Criar{
    cursor:pointer;
-   border: 2px solid #000000;
+   border: 2px solid #ffffff;
+   background-color: white;
    border-radius: 1rem;
    padding: 0.5rem;
    transition: 0.5s;
  }
-.Editar:hover , .Criar:hover{
+ .Criar:hover{
    background: white;
    border: 2px solid #f9f8f895;
    opacity: 1;
 }
-.Editar a:hover{
-   font-weight: bold;
-   
-   color: rgb(0, 0, 0);
-   transition: 0.5s;
-   font-size: 23px;
-}
+
 .Criar a:hover{
    font-weight: bold;
    color: rgb(0, 0, 0);
