@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 45px;
+    max-width: 100%;
+    margin: 2rem 2rem;
+    
+}
+ .grid{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    
+ }
+ h1{
+    
+    font-weight: 800;
+    margin:auto;
+ }
+
+.remedio{
+    width: 1000px;
+    background: white;
+    height: 130px;
+    padding: 1rem;
+    border: 2px solid #f9f8f895;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+.qnt{
+    margin-top: 15px;
+    display: flex;
+    position: relative;
+    left: 850px;
+    top: 30px;
+    gap:10px;
+}
+.descrição{
+    position: relative;
+    top:10px;
+}
+
+.LerMais{
+    position:relative;
+    top:10px;
+    background-color: #04b016;
+    color: rgb(0, 0, 0);
+    border: 1px solid #04b016;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 0.5rem 1rem;
+    max-width: 90px;
+    text-align: center;
+    cursor: pointer;
+}

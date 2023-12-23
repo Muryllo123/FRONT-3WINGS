@@ -1,0 +1,36 @@
+.novo-remedio h2{
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+form{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.containerform{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.containerform label{
+ margin-bottom: 0.5rem;
+}
+
+.containerform input,
+.containerform textarea{
+   padding: .5rem;
+   border: none;
+   border-radius: 5px;
+}
+
+.btn{
+    padding: 1rem;
+    border-radius: 15px;
+    border: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
